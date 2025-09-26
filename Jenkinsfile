@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USER = 'mwaghmodepersistent'
+        DOCKERHUB_USER = 'deshana'
         IMAGE_NAME     = 'calculatorapp'
         IMAGE_TAG      = "latest"
     }
